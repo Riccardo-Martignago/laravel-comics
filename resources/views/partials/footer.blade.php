@@ -6,7 +6,9 @@
     </section>
     <section class="bg-gray">
         <div class="container">
-            <button>SING-UP NOW!</button>
+            <div>
+                <button>SING-UP NOW!</button>
+            </div>
             <ul>
                 <li>
                     <h2 class="blue">FOLLOW US</h2>
