@@ -45,7 +45,7 @@ main{
         color: white;
         div{
             h2{
-                padding: 3rem 0;
+                padding: 1rem 0;
             }
         }
     }
@@ -64,6 +64,15 @@ main{
     }
     .around{
         justify-content: space-around;
+    }
+    .my_card{
+        width: calc(100% / 4 - 2rem);
+        height: 600px;
+        img{
+            height: 400px;
+            object-fit: fill;
+        }
+        margin-bottom: 1rem;
     }
 }
 
