@@ -5,13 +5,13 @@
         </div>
     </section>
     <section class="bg-gray">
-        <div class="container">
+        <div class="container py-4 d-flex justify-content-between align-items-center">
             <div>
                 <button>SING-UP NOW!</button>
             </div>
-            <ul>
+            <ul class="d-flex m-0">
                 <li>
-                    <h2 class="blue">FOLLOW US</h2>
+                    <h2 class="blue m-0">FOLLOW US</h2>
                 </li>
                 <li>
                     <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook">

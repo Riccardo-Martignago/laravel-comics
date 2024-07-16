@@ -1,17 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     font-family: sans-serif;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 ul{
     list-style-type: none;
 }
@@ -78,16 +70,13 @@ main{
 footer{
     .bg-dc-img{
         background-image: url('../img/footer-bg.jpg');
+        background-size: cover;
     }
     .bg-gray{
         background-color: #2f3031;
     }
     .blue{
         color: #0282f9
-    }
-    .container{
-        display: flex;
-        justify-content: space-between
     }
     button{
         border-color: #0282f9;

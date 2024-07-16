@@ -2,14 +2,18 @@
 
 @section('main-content')
     <section class="bg-black">
-        <div>
+        <article class="container d-flex flex-wrap">
             @foreach($data as $dato)
-                <img src="{{ $dato['thumb'] }}" alt="digital-comics">
-                <h2>
-                    {{ $dato['title'] }}
-                </h2>
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ $dato['thumb'] }}" alt="{{ $dato['title'] }}">
+                    <div class="card-body">
+                        <h2>
+                            {{ $dato['title'] }}
+                        </h2>
+                    </div>
+                </div>
             @endforeach
-        </div>
+        </article>
     </section>
     <section class="bg-blue">
         <div class="container around">
